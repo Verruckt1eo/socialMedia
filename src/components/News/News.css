@@ -1,0 +1,42 @@
+.post-avatar{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.post-item{
+    list-style: none;
+    border: 1px solid #ecf0f1;
+    position: relative;
+}
+.post-author{
+    display: flex;
+}
+.post-like{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+ul{
+    padding: 0;
+}
+.post-input{
+    width: 100%;
+    border: 1px solid #ecf0f1;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+}
+.liked{
+    color: gold;
+    text-shadow: 5px 5px 10px rgba(255, 255, 0, 0.582);
+}
+.liked button{
+    color: gold;
+    text-shadow: 5px 5px 10px rgba(255, 255, 0, 0.582);
+}
+.post-delete{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
